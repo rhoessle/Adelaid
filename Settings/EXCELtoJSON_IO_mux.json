@@ -1,0 +1,242 @@
+{
+    "test1": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO9_HV",
+        "channel": 0,
+        "app_mux": 1
+    },
+    "test2": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO10_HV",
+        "channel": 1,
+        "app_mux": 1
+    },
+    "test3": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_UVP_TRIG",
+        "channel": 2,
+        "app_mux": 1
+    },
+    "test4": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO1_AO",
+        "channel": 3,
+        "app_mux": 1
+    },
+    "test5": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_LINKSTAT_IRQ_L",
+        "channel": 4,
+        "app_mux": 1
+    },
+    "test6": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_RESET_IN_L",
+        "channel": 5,
+        "app_mux": 1
+    },
+    "test7": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO2_AO",
+        "channel": 6,
+        "app_mux": 1
+    },
+    "test8": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO12_HV",
+        "channel": 7,
+        "app_mux": 1
+    },
+    "test9": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO13_HV",
+        "channel": 8,
+        "app_mux": 1
+    },
+    "test10": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO11_HV",
+        "channel": 9,
+        "app_mux": 1
+    },
+    "test11": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_LINKSTAT_IRQ_L",
+        "channel": 10,
+        "app_mux": 1
+    },
+    "test12": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_RESET_IN_L",
+        "channel": 11,
+        "app_mux": 1
+    },
+    "test13": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO2_AO",
+        "channel": 12,
+        "app_mux": 1
+    },
+    "test14": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO12_HV",
+        "channel": 13,
+        "app_mux": 1
+    },
+    "test15": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO13_HV",
+        "channel": 14,
+        "app_mux": 1
+    },
+    "test16": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO11_HV",
+        "channel": 15,
+        "app_mux": 1
+    },
+    "test17": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_CLK32K_IN",
+        "channel": 0,
+        "app_mux": 2
+    },
+    "test18": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_SWD_A_CLK",
+        "channel": 1,
+        "app_mux": 2
+    },
+    "test19": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_DFT_CTRL1",
+        "channel": 2,
+        "app_mux": 2
+    },
+    "test20": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_SWD_A_DIO",
+        "channel": 3,
+        "app_mux": 2
+    },
+    "test21": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_SWD_G_CLK",
+        "channel": 4,
+        "app_mux": 2
+    },
+    "test22": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_CFSB_A",
+        "channel": 5,
+        "app_mux": 2
+    },
+    "test23": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_WDOG_A",
+        "channel": 6,
+        "app_mux": 2
+    },
+    "test24": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_RESET_OUT_L_A",
+        "channel": 7,
+        "app_mux": 2
+    },
+    "test25": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO5_LV",
+        "channel": 8,
+        "app_mux": 2
+    },
+    "test26": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO4_LV",
+        "channel": 9,
+        "app_mux": 2
+    },
+    "test27": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_DFT_CTRL0",
+        "channel": 10,
+        "app_mux": 2
+    },
+    "test28": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_CLK32K_SOC_A",
+        "channel": 11,
+        "app_mux": 2
+    },
+    "test29": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO16_LV",
+        "channel": 12,
+        "app_mux": 2
+    },
+    "test30": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_SWD_TMS",
+        "channel": 13,
+        "app_mux": 2
+    },
+    "test31": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_SWD_A_DIO",
+        "channel": 14,
+        "app_mux": 2
+    },
+    "test32": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPI14_LV",
+        "channel": 15,
+        "app_mux": 2
+    },
+    "test33": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO6_LV",
+        "channel": 0,
+        "app_mux": 3
+    },
+    "test34": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO7_LV",
+        "channel": 1,
+        "app_mux": 3
+    },
+    "test35": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO3_LV",
+        "channel": 2,
+        "app_mux": 3
+    },
+    "test36": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_DPSLP_EN_A",
+        "channel": 3,
+        "app_mux": 3
+    },
+    "test37": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_MOTION_INT",
+        "channel": 4,
+        "app_mux": 3
+    },
+    "test38": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO8_LV",
+        "channel": 5,
+        "app_mux": 3
+    },
+    "test39": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_WDOG_G",
+        "channel": 6,
+        "app_mux": 3
+    },
+    "test40": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_CFSB_G",
+        "channel": 7,
+        "app_mux": 3
+    },
+    "test41": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO15_LV",
+        "channel": 8,
+        "app_mux": 3
+    },
+    "test42": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_FORCE_DFU_G",
+        "channel": 9,
+        "app_mux": 3
+    },
+    "test43": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_CRASH_L_G",
+        "channel": 10,
+        "app_mux": 3
+    },
+    "test44": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_DFU_STATUS_G",
+        "channel": 11,
+        "app_mux": 3
+    },
+    "test45": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_RESET_OUT_L_G",
+        "channel": 12,
+        "app_mux": 3
+    },
+    "test46": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_USB_EN_G",
+        "channel": 13,
+        "app_mux": 3
+    },
+    "test47": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_DOCK_CONNECT_G",
+        "channel": 14,
+        "app_mux": 3
+    },
+    "test48": {
+        "signal": "sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_DOCK_CONNECT_G",
+        "channel": 15,
+        "app_mux": 3
+    }
+}

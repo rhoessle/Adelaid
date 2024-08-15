@@ -1,0 +1,17 @@
+Configuration,din,dout,drv_sel,in_en,out_hs_en,out_ls_en,pd_en,pu_en,sel_r,sel_vdd,res_reg,exp. res,meas. res,D_chk,E_chk,Summary
+VDD0_1.25kOhm,1'h0,1'h0,2'h0,1'h0,1'h0,1'h0,1'h0,1'h1,2'h0,2'h0,0,VDD0_1.25kOhm,694.14Ohms,1,0,FAIL
+VDD0_25kOhm,1'h0,1'h0,2'h0,1'h0,1'h0,1'h0,1'h0,1'h1,2'h1,2'h0,1,VDD0_25kOhm,25.34kOhms,1,1,PASS
+VDD0_100kOhm,1'h0,1'h0,2'h0,1'h0,1'h0,1'h0,1'h0,1'h1,2'h2,2'h0,2,VDD0_100kOhm,99.68kOhms,1,1,PASS
+VDD0_200kOhm,1'h0,1'h0,2'h0,1'h0,1'h0,1'h0,1'h0,1'h1,2'h3,2'h0,3,VDD0_200kOhm,198.28kOhms,1,1,PASS
+VDD1_1.25kOhm,1'h0,1'h0,2'h0,1'h0,1'h0,1'h0,1'h0,1'h1,2'h0,2'h1,0,VDD1_1.25kOhm,888.57Ohms,1,0,FAIL
+VDD1_25kOhm,1'h0,1'h0,2'h0,1'h0,1'h0,1'h0,1'h0,1'h1,2'h1,2'h1,1,VDD1_25kOhm,26.06kOhms,1,1,PASS
+VDD1_100kOhm,1'h0,1'h0,2'h0,1'h0,1'h0,1'h0,1'h0,1'h1,2'h2,2'h1,2,VDD1_100kOhm,100.27kOhms,1,1,PASS
+VDD1_200kOhm,1'h0,1'h0,2'h0,1'h0,1'h0,1'h0,1'h0,1'h1,2'h3,2'h1,3,VDD1_200kOhm,198.40kOhms,1,1,PASS
+VDD2_1.25kOhm,1'h0,1'h0,2'h0,1'h0,1'h0,1'h0,1'h0,1'h1,2'h0,2'h2,0,VDD2_1.25kOhm,888.57Ohms,1,0,FAIL
+VDD2_25kOhm,1'h0,1'h0,2'h0,1'h0,1'h0,1'h0,1'h0,1'h1,2'h1,2'h2,1,VDD2_25kOhm,26.06kOhms,1,1,PASS
+VDD2_100kOhm,1'h0,1'h0,2'h0,1'h0,1'h0,1'h0,1'h0,1'h1,2'h2,2'h2,2,VDD2_100kOhm,100.27kOhms,1,1,PASS
+VDD2_200kOhm,1'h0,1'h0,2'h0,1'h0,1'h0,1'h0,1'h0,1'h1,2'h3,2'h2,3,VDD2_200kOhm,198.40kOhms,1,1,PASS
+VDD3_1.25kOhm,1'h0,1'h0,2'h0,1'h0,1'h0,1'h0,1'h0,1'h1,2'h0,2'h3,0,VDD3_1.25kOhm,888.57Ohms,1,0,FAIL
+VDD3_25kOhm,1'h0,1'h0,2'h0,1'h0,1'h0,1'h0,1'h0,1'h1,2'h1,2'h3,1,VDD3_25kOhm,26.06kOhms,1,1,PASS
+VDD3_100kOhm,1'h0,1'h0,2'h0,1'h0,1'h0,1'h0,1'h0,1'h1,2'h2,2'h3,2,VDD3_100kOhm,100.27kOhms,1,1,PASS
+VDD3_200kOhm,1'h0,1'h0,2'h0,1'h0,1'h0,1'h0,1'h0,1'h1,2'h3,2'h3,3,VDD3_200kOhm,198.40kOhms,1,1,PASS

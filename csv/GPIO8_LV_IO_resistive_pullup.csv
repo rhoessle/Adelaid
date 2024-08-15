@@ -1,0 +1,5 @@
+Configuration,din,dout,drv_sel,in_en,out_hs_en,out_ls_en,pd_en,pu_en,sel_r,sel_vdd,res_reg,exp. res,meas. res,D_chk,E_chk,Summary
+VDD1_1.25kOhm,1'h0,1'h0,2'h0,1'h0,1'h0,1'h0,1'h0,1'h1,2'h0,2'h1,0,VDD1_1.25kOhm,1.13kOhms,1,1,PASS
+VDD1_10kOhm,1'h0,1'h0,2'h0,1'h0,1'h0,1'h0,1'h0,1'h1,2'h1,2'h1,1,VDD1_10kOhm,10.22kOhms,1,1,PASS
+VDD1_25kOhm,1'h0,1'h0,2'h0,1'h0,1'h0,1'h0,1'h0,1'h1,2'h2,2'h1,2,VDD1_25kOhm,24.47kOhms,1,1,PASS
+VDD1_100kOhm,1'h0,1'h0,2'h0,1'h0,1'h0,1'h0,1'h0,1'h1,2'h3,2'h1,3,VDD1_100kOhm,102.46kOhms,1,1,PASS

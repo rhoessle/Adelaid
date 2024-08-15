@@ -1,0 +1,192 @@
+test1:
+    app_mux: 1
+    channel: 0
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO9_HV
+test10:
+    app_mux: 1
+    channel: 9
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO11_HV
+test11:
+    app_mux: 1
+    channel: 10
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_LINKSTAT_IRQ_L
+test12:
+    app_mux: 1
+    channel: 11
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_RESET_IN_L
+test13:
+    app_mux: 1
+    channel: 12
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO2_AO
+test14:
+    app_mux: 1
+    channel: 13
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO12_HV
+test15:
+    app_mux: 1
+    channel: 14
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO13_HV
+test16:
+    app_mux: 1
+    channel: 15
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO11_HV
+test17:
+    app_mux: 2
+    channel: 0
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_CLK32K_IN
+test18:
+    app_mux: 2
+    channel: 1
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_SWD_A_CLK
+test19:
+    app_mux: 2
+    channel: 2
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_DFT_CTRL1
+test2:
+    app_mux: 1
+    channel: 1
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO10_HV
+test20:
+    app_mux: 2
+    channel: 3
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_SWD_A_DIO
+test21:
+    app_mux: 2
+    channel: 4
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_SWD_G_CLK
+test22:
+    app_mux: 2
+    channel: 5
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_CFSB_A
+test23:
+    app_mux: 2
+    channel: 6
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_WDOG_A
+test24:
+    app_mux: 2
+    channel: 7
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_RESET_OUT_L_A
+test25:
+    app_mux: 2
+    channel: 8
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO5_LV
+test26:
+    app_mux: 2
+    channel: 9
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO4_LV
+test27:
+    app_mux: 2
+    channel: 10
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_DFT_CTRL0
+test28:
+    app_mux: 2
+    channel: 11
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_CLK32K_SOC_A
+test29:
+    app_mux: 2
+    channel: 12
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO16_LV
+test3:
+    app_mux: 1
+    channel: 2
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_UVP_TRIG
+test30:
+    app_mux: 2
+    channel: 13
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_SWD_TMS
+test31:
+    app_mux: 2
+    channel: 14
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_SWD_A_DIO
+test32:
+    app_mux: 2
+    channel: 15
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPI14_LV
+test33:
+    app_mux: 3
+    channel: 0
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO6_LV
+test34:
+    app_mux: 3
+    channel: 1
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO7_LV
+test35:
+    app_mux: 3
+    channel: 2
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO3_LV
+test36:
+    app_mux: 3
+    channel: 3
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_DPSLP_EN_A
+test37:
+    app_mux: 3
+    channel: 4
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_MOTION_INT
+test38:
+    app_mux: 3
+    channel: 5
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO8_LV
+test39:
+    app_mux: 3
+    channel: 6
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_WDOG_G
+test4:
+    app_mux: 1
+    channel: 3
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO1_AO
+test40:
+    app_mux: 3
+    channel: 7
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_CFSB_G
+test41:
+    app_mux: 3
+    channel: 8
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO15_LV
+test42:
+    app_mux: 3
+    channel: 9
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_FORCE_DFU_G
+test43:
+    app_mux: 3
+    channel: 10
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_CRASH_L_G
+test44:
+    app_mux: 3
+    channel: 11
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_DFU_STATUS_G
+test45:
+    app_mux: 3
+    channel: 12
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_RESET_OUT_L_G
+test46:
+    app_mux: 3
+    channel: 13
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_USB_EN_G
+test47:
+    app_mux: 3
+    channel: 14
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_DOCK_CONNECT_G
+test48:
+    app_mux: 3
+    channel: 15
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_DOCK_CONNECT_G
+test5:
+    app_mux: 1
+    channel: 4
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_LINKSTAT_IRQ_L
+test6:
+    app_mux: 1
+    channel: 5
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_RESET_IN_L
+test7:
+    app_mux: 1
+    channel: 6
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO2_AO
+test8:
+    app_mux: 1
+    channel: 7
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO12_HV
+test9:
+    app_mux: 1
+    channel: 8
+    signal: sim_fiorano.Ichip.Idcore.DCORE.apc_top_dig.apc_gcb.apc_pads.apc_pads_schematic.GATEFIXED_GPIO13_HV

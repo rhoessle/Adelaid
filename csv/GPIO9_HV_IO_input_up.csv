@@ -1,0 +1,5 @@
+Configuration,din,dout,drv_sel,in_en,out_hs_en,out_ls_en,pd_en,pu_en,sel_r,sel_vdd,supply,D_chk,E_chk,Summary
+VDD0,1'h0,1'h1,2'h0,1'h1,1'h0,1'h0,1'h0,1'h0,2'h3,2'h0,VDD0,1,0,FAIL
+VDD1,1'h0,1'h1,2'h0,1'h1,1'h0,1'h0,1'h0,1'h0,2'h3,2'h1,VDD1,1,0,FAIL
+VDD2,1'h0,1'h1,2'h0,1'h1,1'h0,1'h0,1'h0,1'h0,2'h3,2'h2,VDD2,1,0,FAIL
+VDD3,1'h0,1'h1,2'h0,1'h1,1'h0,1'h0,1'h0,1'h0,2'h3,2'h3,VDD3,1,0,FAIL

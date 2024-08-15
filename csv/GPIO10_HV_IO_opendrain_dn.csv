@@ -1,0 +1,5 @@
+Configuration,din,dout,drv_sel,in_en,out_hs_en,out_ls_en,pd_en,pu_en,sel_r,sel_vdd,exp. drive,meas. drive,D_chk,E_chk,Summary
+DRV_out_0,1'h0,1'h0,2'h0,1'h0,1'h0,1'h1,1'h0,1'h0,2'h3,2'h3,1.157,2.18386,1,1,PASS
+DRV_out_1,1'h0,1'h0,2'h1,1'h0,1'h0,1'h1,1'h0,1'h0,2'h3,2'h3,2.299,4.36652,1,1,PASS
+DRV_out_2,1'h0,1'h0,2'h2,1'h0,1'h0,1'h1,1'h0,1'h0,2'h3,2'h3,4.512,6.54802,1,1,PASS
+DRV_out_3,1'h0,1'h0,2'h3,1'h0,1'h0,1'h1,1'h0,1'h0,2'h3,2'h3,8.676,8.72836,1,1,PASS

@@ -1,0 +1,4 @@
+Configuration,din,dout,drv_sel,in_en,out_hs_en,out_ls_en,pd_en,pu_en,sel_r,sel_vdd,IO,D_chk,E_chk,Summary
+GPIO3_LV,1'h0,1'h0,2'h0,1'h1,1'h0,1'h0,1'h0,1'h0,2'h0,2'h1,GPIO3_LV,1,1,PASS
+GPIO4_LV,1'h0,1'h0,2'h0,1'h1,1'h0,1'h0,1'h0,1'h0,2'h0,2'h1,GPIO4_LV,1,1,PASS
+GPIO5_LV,1'h0,1'h0,2'h0,1'h1,1'h0,1'h0,1'h0,1'h0,2'h3,2'h1,GPIO5_LV,1,1,PASS

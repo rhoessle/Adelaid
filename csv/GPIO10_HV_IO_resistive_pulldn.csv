@@ -1,0 +1,5 @@
+Configuration,din,dout,drv_sel,in_en,out_hs_en,out_ls_en,pd_en,pu_en,sel_r,sel_vdd,res_reg,exp. res,meas. res,D_chk,E_chk,Summary
+1.25kOhm,1'h0,1'h0,2'h0,1'h0,1'h0,1'h0,1'h1,1'h0,2'h0,2'h3,0,1.25kOhm,3.76kOhms,1,0,FAIL
+25kOhm,1'h0,1'h0,2'h0,1'h0,1'h0,1'h0,1'h1,1'h0,2'h1,2'h3,1,25kOhm,3.34kOhms,1,0,FAIL
+100kOhm,1'h0,1'h0,2'h0,1'h0,1'h0,1'h0,1'h1,1'h0,2'h2,2'h3,2,100kOhm,3.69kOhms,1,0,FAIL
+200kOhm,1'h0,1'h0,2'h0,1'h0,1'h0,1'h0,1'h1,1'h0,2'h3,2'h3,3,200kOhm,3.76kOhms,1,0,FAIL

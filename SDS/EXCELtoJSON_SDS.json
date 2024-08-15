@@ -1,0 +1,3332 @@
+{
+    "GPIO1": {
+        "type": "apc_iolv",
+        "spec": {
+            "VDD0": {
+                "Min": 1.08,
+                "Typ": 1.2,
+                "Max": 1.32,
+                "Unit": "V",
+                "primary_parameter": "IO driver supply; setting 0",
+                "setting": "0"
+            },
+            "VDD1": {
+                "Min": 1.08,
+                "Typ": 1.2,
+                "Max": 1.32,
+                "Unit": "V",
+                "primary_parameter": "IO driver supply; setting 1",
+                "setting": "1"
+            },
+            "VDD2": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "IO driver supply; setting 2",
+                "setting": "2"
+            },
+            "VDD3": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "IO driver supply; setting 3",
+                "setting": "3"
+            },
+            "VDD3_name": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "ND",
+                "setting": "ND"
+            },
+            "VDD_input1": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "ND",
+                "setting": "ND"
+            },
+            "VDD_input2": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "ND",
+                "setting": "ND"
+            },
+            "Vthr_pos": {
+                "Min": 40,
+                "Typ": "ND",
+                "Max": 70,
+                "Unit": "%",
+                "primary_parameter": "IO Positive-Going Input Threshold",
+                "setting": "ND"
+            },
+            "Vthr_neg": {
+                "Min": 30,
+                "Typ": "ND",
+                "Max": 60,
+                "Unit": "%",
+                "primary_parameter": "IO Negative-Going Input Threshold",
+                "setting": "ND"
+            },
+            "Vthr_hyst": {
+                "Min": 10,
+                "Typ": "ND",
+                "Max": 40,
+                "Unit": "%",
+                "primary_parameter": "IO Input Thresholds Hysteresis",
+                "setting": "ND"
+            },
+            "I_leak": {
+                "Min": -800,
+                "Typ": "ND",
+                "Max": 800,
+                "Unit": "nA",
+                "primary_parameter": "IO Input Leakage",
+                "setting": "ND"
+            },
+            "Voh": {
+                "Min": 80,
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "%",
+                "primary_parameter": "IO Output High Voltage Level",
+                "setting": "ND"
+            },
+            "Vol": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": 0.3,
+                "Unit": "V",
+                "primary_parameter": "IO Output Low Voltage Level",
+                "setting": "ND"
+            },
+            "DRV_out_0": {
+                "Min": 0.45,
+                "Typ": 1,
+                "Max": 2,
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 0",
+                "setting": "0"
+            },
+            "DRV_out_1": {
+                "Min": 0.9,
+                "Typ": 2,
+                "Max": 4,
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 1",
+                "setting": "1"
+            },
+            "DRV_out_2": {
+                "Min": 1.8,
+                "Typ": 4,
+                "Max": 7.5,
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 2",
+                "setting": "2"
+            },
+            "DRV_out_3": {
+                "Min": 3.6,
+                "Typ": 8,
+                "Max": 15,
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 3",
+                "setting": "3"
+            },
+            "DRV_out_4": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 4",
+                "setting": "4"
+            },
+            "DRV_out_5": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 5",
+                "setting": "5"
+            },
+            "DRV_out_6": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 6",
+                "setting": "6"
+            },
+            "DRV_out_7": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 7",
+                "setting": "7"
+            },
+            "DRV_out_RESET": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; during RESET",
+                "setting": "ND"
+            },
+            "SR_out_0": {
+                "Min": "0.025",
+                "Typ": "ND",
+                "Max": 0.4,
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 0",
+                "setting": "0"
+            },
+            "SR_out_1": {
+                "Min": 0.05,
+                "Typ": "ND",
+                "Max": 0.75,
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 1",
+                "setting": "1"
+            },
+            "SR_out_2": {
+                "Min": 0.1,
+                "Typ": "ND",
+                "Max": 1.5,
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 2",
+                "setting": "2"
+            },
+            "SR_out_3": {
+                "Min": 0.15,
+                "Typ": "ND",
+                "Max": 2.65,
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 3",
+                "setting": "3"
+            },
+            "SR_out_4": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 4",
+                "setting": "4"
+            },
+            "SR_out_5": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 5",
+                "setting": "5"
+            },
+            "SR_out_6": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 6",
+                "setting": "6"
+            },
+            "SR_out_7": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 7",
+                "setting": "7"
+            },
+            "R_pu_pd_0": {
+                "Min": 0.6,
+                "Typ": 1.25,
+                "Max": 2.5,
+                "Unit": "kOhm",
+                "primary_parameter": "Pull-Up / Pull-Down Resistance",
+                "setting": "ND"
+            },
+            "R_pu_pd_1": {
+                "Min": 6,
+                "Typ": 10,
+                "Max": 17,
+                "Unit": "kOhm",
+                "primary_parameter": "Pull-Up / Pull-Down Resistance",
+                "setting": "ND"
+            },
+            "R_pu_pd_2": {
+                "Min": 15,
+                "Typ": 25,
+                "Max": 40,
+                "Unit": "kOhm",
+                "primary_parameter": "Pull-Up / Pull-Down Resistance",
+                "setting": "ND"
+            },
+            "R_pu_pd_3": {
+                "Min": 60,
+                "Typ": 100,
+                "Max": 150,
+                "Unit": "kOhm",
+                "primary_parameter": "Pull-Up / Pull-Down Resistance",
+                "setting": "ND"
+            },
+            "R_pd_test": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "kOhm",
+                "primary_parameter": "High-ohmic pull-down resistance in test mode",
+                "setting": "ND"
+            },
+            "Cload": {
+                "Min": 5,
+                "Typ": "ND",
+                "Max": 20,
+                "Unit": "pF",
+                "primary_parameter": "Output load in Mission Mode",
+                "setting": "ND"
+            },
+            "Cload_test": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": 110,
+                "Unit": "pF",
+                "primary_parameter": "Output load in Test Mode",
+                "setting": "ND"
+            },
+            "tp": {
+                "Min": "ND",
+                "Typ": 10,
+                "Max": 20,
+                "Unit": "ns",
+                "primary_parameter": "Delay time, output direction",
+                "setting": "ND"
+            },
+            "tp_in": {
+                "Min": "ND",
+                "Typ": 3.5,
+                "Max": 6.5,
+                "Unit": "ns",
+                "primary_parameter": "Delay time, input direction",
+                "setting": "ND"
+            },
+            "f_clk": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "MHz",
+                "primary_parameter": "Toggle Rate in Mission Mode",
+                "setting": "ND"
+            },
+            "f_clk_test": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": 10,
+                "Unit": "MHz",
+                "primary_parameter": "Toggle Rate in Test Mode",
+                "setting": "ND"
+            },
+            "tr/f": {
+                "Min": "ND",
+                "Typ": 6.5,
+                "Max": "ND",
+                "Unit": "ns",
+                "primary_parameter": "20%-80% rise/fall time in Test Mode",
+                "setting": "ND"
+            },
+            "t_pulse": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "ns",
+                "primary_parameter": "Clk out high/low time ",
+                "setting": "ND"
+            }
+        },
+        "features": {
+            "Input Conditioner": "X",
+            "Output Conditioner": "X",
+            "Supply Selection": "-",
+            "Output": "X",
+            "General Purpose Output": "-",
+            "Input": "-",
+            "Input Event": "-",
+            "Input Debouncer": "-",
+            "General Purpose Input": "-",
+            "Wakeup": "-",
+            "Resistive Pull": "X",
+            "Resistive Pulldown": "X",
+            "Resistive Pullup": "X",
+            "Deglitcher": "-",
+            "Hold": "-",
+            "Contention Detection": "-",
+            "Power Sequencing": "-",
+            "IRQ for SecureFW": "-",
+            "IRQ for Telemtry FW": "-"
+        }
+    },
+    "GPIO2": {
+        "type": "apc_iolv",
+        "spec": {
+            "VDD0": {
+                "Min": 1.08,
+                "Typ": 1.2,
+                "Max": 1.32,
+                "Unit": "V",
+                "primary_parameter": "IO driver supply; setting 0",
+                "setting": "0"
+            },
+            "VDD1": {
+                "Min": 1.08,
+                "Typ": 1.2,
+                "Max": 1.32,
+                "Unit": "V",
+                "primary_parameter": "IO driver supply; setting 1",
+                "setting": "1"
+            },
+            "VDD2": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "IO driver supply; setting 2",
+                "setting": "2"
+            },
+            "VDD3": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "IO driver supply; setting 3",
+                "setting": "3"
+            },
+            "VDD3_name": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "ND",
+                "setting": "ND"
+            },
+            "VDD_input1": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "ND",
+                "setting": "ND"
+            },
+            "VDD_input2": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "ND",
+                "setting": "ND"
+            },
+            "Vthr_pos": {
+                "Min": 40,
+                "Typ": "ND",
+                "Max": 70,
+                "Unit": "%",
+                "primary_parameter": "IO Positive-Going Input Threshold",
+                "setting": "ND"
+            },
+            "Vthr_neg": {
+                "Min": 30,
+                "Typ": "ND",
+                "Max": 60,
+                "Unit": "%",
+                "primary_parameter": "IO Negative-Going Input Threshold",
+                "setting": "ND"
+            },
+            "Vthr_hyst": {
+                "Min": 10,
+                "Typ": "ND",
+                "Max": 40,
+                "Unit": "%",
+                "primary_parameter": "IO Input Thresholds Hysteresis",
+                "setting": "ND"
+            },
+            "I_leak": {
+                "Min": -800,
+                "Typ": "ND",
+                "Max": 800,
+                "Unit": "nA",
+                "primary_parameter": "IO Input Leakage",
+                "setting": "ND"
+            },
+            "Voh": {
+                "Min": 80,
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "%",
+                "primary_parameter": "IO Output High Voltage Level",
+                "setting": "ND"
+            },
+            "Vol": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": 0.3,
+                "Unit": "V",
+                "primary_parameter": "IO Output Low Voltage Level",
+                "setting": "ND"
+            },
+            "DRV_out_0": {
+                "Min": 0.45,
+                "Typ": 1,
+                "Max": 2,
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 0",
+                "setting": "0"
+            },
+            "DRV_out_1": {
+                "Min": 0.9,
+                "Typ": 2,
+                "Max": 4,
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 1",
+                "setting": "1"
+            },
+            "DRV_out_2": {
+                "Min": 1.8,
+                "Typ": 4,
+                "Max": 7.5,
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 2",
+                "setting": "2"
+            },
+            "DRV_out_3": {
+                "Min": 3.6,
+                "Typ": 8,
+                "Max": 15,
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 3",
+                "setting": "3"
+            },
+            "DRV_out_4": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 4",
+                "setting": "4"
+            },
+            "DRV_out_5": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 5",
+                "setting": "5"
+            },
+            "DRV_out_6": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 6",
+                "setting": "6"
+            },
+            "DRV_out_7": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 7",
+                "setting": "7"
+            },
+            "DRV_out_RESET": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; during RESET",
+                "setting": "ND"
+            },
+            "SR_out_0": {
+                "Min": "0.025",
+                "Typ": "ND",
+                "Max": 0.4,
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 0",
+                "setting": "0"
+            },
+            "SR_out_1": {
+                "Min": 0.05,
+                "Typ": "ND",
+                "Max": 0.75,
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 1",
+                "setting": "1"
+            },
+            "SR_out_2": {
+                "Min": 0.1,
+                "Typ": "ND",
+                "Max": 1.5,
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 2",
+                "setting": "2"
+            },
+            "SR_out_3": {
+                "Min": 0.15,
+                "Typ": "ND",
+                "Max": 2.65,
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 3",
+                "setting": "3"
+            },
+            "SR_out_4": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 4",
+                "setting": "4"
+            },
+            "SR_out_5": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 5",
+                "setting": "5"
+            },
+            "SR_out_6": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 6",
+                "setting": "6"
+            },
+            "SR_out_7": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 7",
+                "setting": "7"
+            },
+            "R_pu_pd_0": {
+                "Min": 0.6,
+                "Typ": 1.25,
+                "Max": 2.5,
+                "Unit": "kOhm",
+                "primary_parameter": "Pull-Up / Pull-Down Resistance",
+                "setting": "ND"
+            },
+            "R_pu_pd_1": {
+                "Min": 6,
+                "Typ": 10,
+                "Max": 17,
+                "Unit": "kOhm",
+                "primary_parameter": "Pull-Up / Pull-Down Resistance",
+                "setting": "ND"
+            },
+            "R_pu_pd_2": {
+                "Min": 15,
+                "Typ": 25,
+                "Max": 40,
+                "Unit": "kOhm",
+                "primary_parameter": "Pull-Up / Pull-Down Resistance",
+                "setting": "ND"
+            },
+            "R_pu_pd_3": {
+                "Min": 60,
+                "Typ": 100,
+                "Max": 150,
+                "Unit": "kOhm",
+                "primary_parameter": "Pull-Up / Pull-Down Resistance",
+                "setting": "ND"
+            },
+            "R_pd_test": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "kOhm",
+                "primary_parameter": "High-ohmic pull-down resistance in test mode",
+                "setting": "ND"
+            },
+            "Cload": {
+                "Min": 5,
+                "Typ": "ND",
+                "Max": 20,
+                "Unit": "pF",
+                "primary_parameter": "Output load in Mission Mode",
+                "setting": "ND"
+            },
+            "Cload_test": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": 110,
+                "Unit": "pF",
+                "primary_parameter": "Output load in Test Mode",
+                "setting": "ND"
+            },
+            "tp": {
+                "Min": "ND",
+                "Typ": 10,
+                "Max": 20,
+                "Unit": "ns",
+                "primary_parameter": "Delay time, output direction",
+                "setting": "ND"
+            },
+            "tp_in": {
+                "Min": "ND",
+                "Typ": 3.5,
+                "Max": 6.5,
+                "Unit": "ns",
+                "primary_parameter": "Delay time, input direction",
+                "setting": "ND"
+            },
+            "f_clk": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "MHz",
+                "primary_parameter": "Toggle Rate in Mission Mode",
+                "setting": "ND"
+            },
+            "f_clk_test": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": 10,
+                "Unit": "MHz",
+                "primary_parameter": "Toggle Rate in Test Mode",
+                "setting": "ND"
+            },
+            "tr/f": {
+                "Min": "ND",
+                "Typ": 6.5,
+                "Max": "ND",
+                "Unit": "ns",
+                "primary_parameter": "20%-80% rise/fall time in Test Mode",
+                "setting": "ND"
+            },
+            "t_pulse": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "ns",
+                "primary_parameter": "Clk out high/low time ",
+                "setting": "ND"
+            }
+        },
+        "features": {
+            "Input Conditioner": "X",
+            "Output Conditioner": "X",
+            "Supply Selection": "-",
+            "Output": "-",
+            "General Purpose Output": "-",
+            "Input": "X",
+            "Input Event": "X",
+            "Input Debouncer": "X",
+            "General Purpose Input": "-",
+            "Wakeup": "-",
+            "Resistive Pull": "X",
+            "Resistive Pulldown": "X",
+            "Resistive Pullup": "X",
+            "Deglitcher": "-",
+            "Hold": "-",
+            "Contention Detection": "-",
+            "Power Sequencing": "-",
+            "IRQ for SecureFW": "X",
+            "IRQ for Telemtry FW": "-"
+        }
+    },
+    "GPIO3": {
+        "type": "apc_iohv",
+        "spec": {
+            "VDD0": {
+                "Min": 2.5,
+                "Typ": 3.8,
+                "Max": 4.9,
+                "Unit": "V",
+                "primary_parameter": "IO driver supply; setting 0",
+                "setting": "0"
+            },
+            "VDD1": {
+                "Min": 1.62,
+                "Typ": 1.8,
+                "Max": 1.98,
+                "Unit": "V",
+                "primary_parameter": "IO driver supply; setting 1",
+                "setting": "1"
+            },
+            "VDD2": {
+                "Min": 1.62,
+                "Typ": 1.8,
+                "Max": 1.98,
+                "Unit": "V",
+                "primary_parameter": "IO driver supply; setting 2",
+                "setting": "2"
+            },
+            "VDD3": {
+                "Min": 1.62,
+                "Typ": 1.8,
+                "Max": 1.98,
+                "Unit": "V",
+                "primary_parameter": "IO driver supply; setting 3",
+                "setting": "3"
+            },
+            "VDD3_name": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "ND",
+                "setting": "ND"
+            },
+            "VDD_input1": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "ND",
+                "setting": "ND"
+            },
+            "VDD_input2": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "ND",
+                "setting": "ND"
+            },
+            "Vthr_pos": {
+                "Min": 40,
+                "Typ": "ND",
+                "Max": 70,
+                "Unit": "%",
+                "primary_parameter": "IO Positive-Going Input Threshold",
+                "setting": "ND"
+            },
+            "Vthr_neg": {
+                "Min": 30,
+                "Typ": "ND",
+                "Max": 60,
+                "Unit": "%",
+                "primary_parameter": "IO Negative-Going Input Threshold",
+                "setting": "ND"
+            },
+            "Vthr_hyst": {
+                "Min": 10,
+                "Typ": "ND",
+                "Max": 40,
+                "Unit": "%",
+                "primary_parameter": "IO Input Thresholds Hysteresis",
+                "setting": "ND"
+            },
+            "I_leak": {
+                "Min": -500,
+                "Typ": "ND",
+                "Max": 500,
+                "Unit": "nA",
+                "primary_parameter": "IO Input Leakage",
+                "setting": "ND"
+            },
+            "Voh": {
+                "Min": "ND",
+                "Typ": "NA",
+                "Max": "ND",
+                "Unit": "%",
+                "primary_parameter": "IO Output High Voltage Level",
+                "setting": "ND"
+            },
+            "Vol": {
+                "Min": "ND",
+                "Typ": "NA",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "IO Output Low Voltage Level",
+                "setting": "ND"
+            },
+            "DRV_out_0": {
+                "Min": 0.5,
+                "Typ": 1.157,
+                "Max": 3.5,
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 0",
+                "setting": "0"
+            },
+            "DRV_out_1": {
+                "Min": 1,
+                "Typ": 2.299,
+                "Max": 7,
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 1",
+                "setting": "1"
+            },
+            "DRV_out_2": {
+                "Min": 2,
+                "Typ": 4.512,
+                "Max": 13.5,
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 2",
+                "setting": "2"
+            },
+            "DRV_out_3": {
+                "Min": 4,
+                "Typ": 8.676,
+                "Max": 24,
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 3",
+                "setting": "3"
+            },
+            "DRV_out_4": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 4",
+                "setting": "4"
+            },
+            "DRV_out_5": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 5",
+                "setting": "5"
+            },
+            "DRV_out_6": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 6",
+                "setting": "6"
+            },
+            "DRV_out_7": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 7",
+                "setting": "7"
+            },
+            "DRV_out_RESET": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; during RESET",
+                "setting": "ND"
+            },
+            "SR_out_0": {
+                "Min": 0.025,
+                "Typ": "ND",
+                "Max": 1.07,
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 0",
+                "setting": "0"
+            },
+            "SR_out_1": {
+                "Min": 0.05,
+                "Typ": "ND",
+                "Max": 2.01,
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 1",
+                "setting": "1"
+            },
+            "SR_out_2": {
+                "Min": 0.1,
+                "Typ": "ND",
+                "Max": 3,
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 2",
+                "setting": "2"
+            },
+            "SR_out_3": {
+                "Min": 0.1,
+                "Typ": "ND",
+                "Max": 3,
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 3",
+                "setting": "3"
+            },
+            "SR_out_4": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 4",
+                "setting": "4"
+            },
+            "SR_out_5": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 5",
+                "setting": "5"
+            },
+            "SR_out_6": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 6",
+                "setting": "6"
+            },
+            "SR_out_7": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 7",
+                "setting": "7"
+            },
+            "R_pu_pd_0": {
+                "Min": 0.75,
+                "Typ": 1.25,
+                "Max": 2.5,
+                "Unit": "kOhm",
+                "primary_parameter": "Pull-Up / Pull-Down Resistance",
+                "setting": "ND"
+            },
+            "R_pu_pd_1": {
+                "Min": 15,
+                "Typ": 25,
+                "Max": 40,
+                "Unit": "kOhm",
+                "primary_parameter": "Pull-Up / Pull-Down Resistance",
+                "setting": "ND"
+            },
+            "R_pu_pd_2": {
+                "Min": 60,
+                "Typ": 100,
+                "Max": 150,
+                "Unit": "kOhm",
+                "primary_parameter": "Pull-Up / Pull-Down Resistance",
+                "setting": "ND"
+            },
+            "R_pu_pd_3": {
+                "Min": 130,
+                "Typ": 200,
+                "Max": 300,
+                "Unit": "kOhm",
+                "primary_parameter": "Pull-Up / Pull-Down Resistance",
+                "setting": "ND"
+            },
+            "R_pd_test": {
+                "Min": 130,
+                "Typ": 200,
+                "Max": 300,
+                "Unit": "kOhm",
+                "primary_parameter": "High-ohmic pull-down resistance in test mode",
+                "setting": "ND"
+            },
+            "Cload": {
+                "Min": 5,
+                "Typ": "ND",
+                "Max": 20,
+                "Unit": "pF",
+                "primary_parameter": "Output load in Mission Mode",
+                "setting": "ND"
+            },
+            "Cload_test": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "pF",
+                "primary_parameter": "Output load in Test Mode",
+                "setting": "ND"
+            },
+            "tp": {
+                "Min": "ND",
+                "Typ": 5,
+                "Max": 35,
+                "Unit": "ns",
+                "primary_parameter": "Delay time, output direction",
+                "setting": "ND"
+            },
+            "tp_in": {
+                "Min": "ND",
+                "Typ": 5,
+                "Max": 25,
+                "Unit": "ns",
+                "primary_parameter": "Delay time, input direction",
+                "setting": "ND"
+            },
+            "f_clk": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "MHz",
+                "primary_parameter": "Toggle Rate in Mission Mode",
+                "setting": "ND"
+            },
+            "f_clk_test": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "MHz",
+                "primary_parameter": "Toggle Rate in Test Mode",
+                "setting": "ND"
+            },
+            "tr/f": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "ns",
+                "primary_parameter": "20%-80% rise/fall time in Test Mode",
+                "setting": "ND"
+            },
+            "t_pulse": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "ns",
+                "primary_parameter": "Clk out high/low time ",
+                "setting": "ND"
+            }
+        },
+        "features": {
+            "Input Conditioner": "X",
+            "Output Conditioner": "X",
+            "Supply Selection": "X",
+            "Output": "X",
+            "General Purpose Output": "X",
+            "Input": "X",
+            "Input Event": "X",
+            "Input Debouncer": "X",
+            "General Purpose Input": "X",
+            "Wakeup": "-",
+            "Resistive Pull": "X",
+            "Resistive Pulldown": "X",
+            "Resistive Pullup": "X",
+            "Deglitcher": "-",
+            "Hold": "-",
+            "Contention Detection": "X",
+            "Power Sequencing": "X",
+            "IRQ for SecureFW": "X",
+            "IRQ for Telemtry FW": "X"
+        }
+    },
+    "#VALUE!": {
+        "type": "apc_iospmi",
+        "spec": {
+            "VDD0": {
+                "Min": 1.08,
+                "Typ": 1.2,
+                "Max": 1.32,
+                "Unit": "V",
+                "primary_parameter": "IO driver supply; setting 0",
+                "setting": "0"
+            },
+            "VDD1": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "IO driver supply; setting 1",
+                "setting": "1"
+            },
+            "VDD2": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "IO driver supply; setting 2",
+                "setting": "2"
+            },
+            "VDD3": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "IO driver supply; setting 3",
+                "setting": "3"
+            },
+            "VDD3_name": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "ND",
+                "setting": "ND"
+            },
+            "VDD_input1": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "ND",
+                "setting": "ND"
+            },
+            "VDD_input2": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "ND",
+                "setting": "ND"
+            },
+            "Vthr_pos": {
+                "Min": 40,
+                "Typ": "ND",
+                "Max": 70,
+                "Unit": "%",
+                "primary_parameter": "IO Positive-Going Input Threshold",
+                "setting": "ND"
+            },
+            "Vthr_neg": {
+                "Min": 30,
+                "Typ": "ND",
+                "Max": 60,
+                "Unit": "%",
+                "primary_parameter": "IO Negative-Going Input Threshold",
+                "setting": "ND"
+            },
+            "Vthr_hyst": {
+                "Min": 10,
+                "Typ": "ND",
+                "Max": 40,
+                "Unit": "%",
+                "primary_parameter": "IO Input Thresholds Hysteresis",
+                "setting": "ND"
+            },
+            "I_leak": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "nA",
+                "primary_parameter": "IO Input Leakage",
+                "setting": "ND"
+            },
+            "Voh": {
+                "Min": 80,
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "%",
+                "primary_parameter": "IO Output High Voltage Level",
+                "setting": "ND"
+            },
+            "Vol": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "0.2*VDD0",
+                "Unit": "V",
+                "primary_parameter": "IO Output Low Voltage Level",
+                "setting": "ND"
+            },
+            "DRV_out_0": {
+                "Min": "ND",
+                "Typ": 2,
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 0",
+                "setting": "0"
+            },
+            "DRV_out_1": {
+                "Min": "ND",
+                "Typ": 3,
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 1",
+                "setting": "1"
+            },
+            "DRV_out_2": {
+                "Min": "ND",
+                "Typ": 4,
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 2",
+                "setting": "2"
+            },
+            "DRV_out_3": {
+                "Min": "ND",
+                "Typ": 5,
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 3",
+                "setting": "3"
+            },
+            "DRV_out_4": {
+                "Min": "ND",
+                "Typ": 6,
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 4",
+                "setting": "4"
+            },
+            "DRV_out_5": {
+                "Min": "ND",
+                "Typ": 7,
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 5",
+                "setting": "5"
+            },
+            "DRV_out_6": {
+                "Min": "ND",
+                "Typ": 8,
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 6",
+                "setting": "6"
+            },
+            "DRV_out_7": {
+                "Min": "ND",
+                "Typ": 9,
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 7",
+                "setting": "7"
+            },
+            "DRV_out_RESET": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; during RESET",
+                "setting": "ND"
+            },
+            "SR_out_0": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 0",
+                "setting": "0"
+            },
+            "SR_out_1": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 1",
+                "setting": "1"
+            },
+            "SR_out_2": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 2",
+                "setting": "2"
+            },
+            "SR_out_3": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 3",
+                "setting": "3"
+            },
+            "SR_out_4": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 4",
+                "setting": "4"
+            },
+            "SR_out_5": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 5",
+                "setting": "5"
+            },
+            "SR_out_6": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 6",
+                "setting": "6"
+            },
+            "SR_out_7": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 7",
+                "setting": "7"
+            },
+            "R_pu_pd_0": {
+                "Min": 500,
+                "Typ": "ND",
+                "Max": 2000,
+                "Unit": "kOhm",
+                "primary_parameter": "Pull-Up / Pull-Down Resistance",
+                "setting": "ND"
+            },
+            "R_pu_pd_1": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "kOhm",
+                "primary_parameter": "Pull-Up / Pull-Down Resistance",
+                "setting": "ND"
+            },
+            "R_pu_pd_2": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "kOhm",
+                "primary_parameter": "Pull-Up / Pull-Down Resistance",
+                "setting": "ND"
+            },
+            "R_pu_pd_3": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "kOhm",
+                "primary_parameter": "Pull-Up / Pull-Down Resistance",
+                "setting": "ND"
+            },
+            "R_pd_test": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "kOhm",
+                "primary_parameter": "High-ohmic pull-down resistance in test mode",
+                "setting": "ND"
+            },
+            "Cload": {
+                "Min": 15,
+                "Typ": "ND",
+                "Max": 50,
+                "Unit": "pF",
+                "primary_parameter": "Output load in Mission Mode",
+                "setting": "ND"
+            },
+            "Cload_test": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "pF",
+                "primary_parameter": "Output load in Test Mode",
+                "setting": "ND"
+            },
+            "tp": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "ns",
+                "primary_parameter": "Delay time, output direction",
+                "setting": "ND"
+            },
+            "tp_in": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "ns",
+                "primary_parameter": "Delay time, input direction",
+                "setting": "ND"
+            },
+            "f_clk": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "MHz",
+                "primary_parameter": "Toggle Rate in Mission Mode",
+                "setting": "ND"
+            },
+            "f_clk_test": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "MHz",
+                "primary_parameter": "Toggle Rate in Test Mode",
+                "setting": "ND"
+            },
+            "tr/f": {
+                "Min": 0.66,
+                "Typ": "ND",
+                "Max": 5.4,
+                "Unit": "ns",
+                "primary_parameter": "20%-80% rise/fall time in Test Mode",
+                "setting": "ND"
+            },
+            "t_pulse": {
+                "Min": 18,
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "ns",
+                "primary_parameter": "Clk out high/low time ",
+                "setting": "ND"
+            }
+        },
+        "features": {
+            "Input Conditioner": "-",
+            "Output Conditioner": "-",
+            "Supply Selection": "-",
+            "Output": "X",
+            "General Purpose Output": "-",
+            "Input": "X",
+            "Input Event": "-",
+            "Input Debouncer": "-",
+            "General Purpose Input": "-",
+            "Wakeup": "-",
+            "Resistive Pull": "X",
+            "Resistive Pulldown": "X",
+            "Resistive Pullup": "-",
+            "Deglitcher": "-",
+            "Hold": "-",
+            "Contention Detection": "-",
+            "Power Sequencing": "-",
+            "IRQ for SecureFW": "-",
+            "IRQ for Telemtry FW": "-"
+        }
+    },
+    "None": {
+        "type": "None",
+        "spec": {
+            "VDD0": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "V",
+                "primary_parameter": "IO driver supply; setting 0",
+                "setting": "0"
+            },
+            "VDD1": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "V",
+                "primary_parameter": "IO driver supply; setting 1",
+                "setting": "1"
+            },
+            "VDD2": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "V",
+                "primary_parameter": "IO driver supply; setting 2",
+                "setting": "2"
+            },
+            "VDD3": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "V",
+                "primary_parameter": "IO driver supply; setting 3",
+                "setting": "3"
+            },
+            "VDD3_name": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "ND",
+                "setting": "ND"
+            },
+            "VDD_input1": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "ND",
+                "setting": "ND"
+            },
+            "VDD_input2": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "ND",
+                "setting": "ND"
+            },
+            "Vthr_pos": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "%",
+                "primary_parameter": "IO Positive-Going Input Threshold",
+                "setting": "ND"
+            },
+            "Vthr_neg": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "%",
+                "primary_parameter": "IO Negative-Going Input Threshold",
+                "setting": "ND"
+            },
+            "Vthr_hyst": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "%",
+                "primary_parameter": "IO Input Thresholds Hysteresis",
+                "setting": "ND"
+            },
+            "I_leak": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "nA",
+                "primary_parameter": "IO Input Leakage",
+                "setting": "ND"
+            },
+            "Voh": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "%",
+                "primary_parameter": "IO Output High Voltage Level",
+                "setting": "ND"
+            },
+            "Vol": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "V",
+                "primary_parameter": "IO Output Low Voltage Level",
+                "setting": "ND"
+            },
+            "DRV_out_0": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 0",
+                "setting": "0"
+            },
+            "DRV_out_1": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 1",
+                "setting": "1"
+            },
+            "DRV_out_2": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 2",
+                "setting": "2"
+            },
+            "DRV_out_3": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 3",
+                "setting": "3"
+            },
+            "DRV_out_4": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 4",
+                "setting": "4"
+            },
+            "DRV_out_5": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 5",
+                "setting": "5"
+            },
+            "DRV_out_6": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 6",
+                "setting": "6"
+            },
+            "DRV_out_7": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 7",
+                "setting": "7"
+            },
+            "DRV_out_RESET": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; during RESET",
+                "setting": "ND"
+            },
+            "SR_out_0": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 0",
+                "setting": "0"
+            },
+            "SR_out_1": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 1",
+                "setting": "1"
+            },
+            "SR_out_2": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 2",
+                "setting": "2"
+            },
+            "SR_out_3": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 3",
+                "setting": "3"
+            },
+            "SR_out_4": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 4",
+                "setting": "4"
+            },
+            "SR_out_5": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 5",
+                "setting": "5"
+            },
+            "SR_out_6": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 6",
+                "setting": "6"
+            },
+            "SR_out_7": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 7",
+                "setting": "7"
+            },
+            "R_pu_pd_0": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "kOhm",
+                "primary_parameter": "Pull-Up / Pull-Down Resistance",
+                "setting": "ND"
+            },
+            "R_pu_pd_1": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "kOhm",
+                "primary_parameter": "Pull-Up / Pull-Down Resistance",
+                "setting": "ND"
+            },
+            "R_pu_pd_2": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "kOhm",
+                "primary_parameter": "Pull-Up / Pull-Down Resistance",
+                "setting": "ND"
+            },
+            "R_pu_pd_3": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "kOhm",
+                "primary_parameter": "Pull-Up / Pull-Down Resistance",
+                "setting": "ND"
+            },
+            "R_pd_test": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "kOhm",
+                "primary_parameter": "High-ohmic pull-down resistance in test mode",
+                "setting": "ND"
+            },
+            "Cload": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "pF",
+                "primary_parameter": "Output load in Mission Mode",
+                "setting": "ND"
+            },
+            "Cload_test": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "pF",
+                "primary_parameter": "Output load in Test Mode",
+                "setting": "ND"
+            },
+            "tp": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "ns",
+                "primary_parameter": "Delay time, output direction",
+                "setting": "ND"
+            },
+            "tp_in": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "ns",
+                "primary_parameter": "Delay time, input direction",
+                "setting": "ND"
+            },
+            "f_clk": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "MHz",
+                "primary_parameter": "Toggle Rate in Mission Mode",
+                "setting": "ND"
+            },
+            "f_clk_test": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "MHz",
+                "primary_parameter": "Toggle Rate in Test Mode",
+                "setting": "ND"
+            },
+            "tr/f": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "ns",
+                "primary_parameter": "20%-80% rise/fall time in Test Mode",
+                "setting": "ND"
+            },
+            "t_pulse": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "keep",
+                "Unit": "ns",
+                "primary_parameter": "Clk out high/low time ",
+                "setting": "ND"
+            }
+        },
+        "features": {
+            "Input Conditioner": "-",
+            "Output Conditioner": "-",
+            "Supply Selection": "-",
+            "Output": "-",
+            "General Purpose Output": "-",
+            "Input": "-",
+            "Input Event": "-",
+            "Input Debouncer": "-",
+            "General Purpose Input": "-",
+            "Wakeup": "-",
+            "Resistive Pull": "-",
+            "Resistive Pulldown": "-",
+            "Resistive Pullup": "-",
+            "Deglitcher": "-",
+            "Hold": "-",
+            "Contention Detection": "-",
+            "Power Sequencing": "-",
+            "IRQ for SecureFW": "-",
+            "IRQ for Telemtry FW": "-"
+        }
+    },
+    "iolv": {
+        "type": "apc_iolv",
+        "spec": {
+            "VDD0": {
+                "Min": 1.08,
+                "Typ": 1.2,
+                "Max": 1.32,
+                "Unit": "V",
+                "primary_parameter": "IO driver supply; setting 0",
+                "setting": "0"
+            },
+            "VDD1": {
+                "Min": 1.08,
+                "Typ": 1.2,
+                "Max": 1.32,
+                "Unit": "V",
+                "primary_parameter": "IO driver supply; setting 1",
+                "setting": "1"
+            },
+            "VDD2": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "IO driver supply; setting 2",
+                "setting": "2"
+            },
+            "VDD3": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "IO driver supply; setting 3",
+                "setting": "3"
+            },
+            "VDD3_name": {
+                "Min": "ND",
+                "Typ": "-CLAMP-",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "ND",
+                "setting": "ND"
+            },
+            "VDD_input1": {
+                "Min": "ND",
+                "Typ": "VDDIO_1V2",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "ND",
+                "setting": "ND"
+            },
+            "VDD_input2": {
+                "Min": "ND",
+                "Typ": "VDDIO_1V2",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "ND",
+                "setting": "ND"
+            },
+            "Vthr_pos": {
+                "Min": 40,
+                "Typ": "ND",
+                "Max": 70,
+                "Unit": "%",
+                "primary_parameter": "IO Positive-Going Input Threshold",
+                "setting": "ND"
+            },
+            "Vthr_neg": {
+                "Min": 30,
+                "Typ": "ND",
+                "Max": 60,
+                "Unit": "%",
+                "primary_parameter": "IO Negative-Going Input Threshold",
+                "setting": "ND"
+            },
+            "Vthr_hyst": {
+                "Min": 10,
+                "Typ": "ND",
+                "Max": 40,
+                "Unit": "%",
+                "primary_parameter": "IO Input Thresholds Hysteresis",
+                "setting": "ND"
+            },
+            "I_leak": {
+                "Min": -800,
+                "Typ": "ND",
+                "Max": 800,
+                "Unit": "nA",
+                "primary_parameter": "IO Input Leakage",
+                "setting": "ND"
+            },
+            "Voh": {
+                "Min": 80,
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "%",
+                "primary_parameter": "IO Output High Voltage Level",
+                "setting": "ND"
+            },
+            "Vol": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": 0.3,
+                "Unit": "V",
+                "primary_parameter": "IO Output Low Voltage Level",
+                "setting": "ND"
+            },
+            "DRV_out_0": {
+                "Min": 0.45,
+                "Typ": 1,
+                "Max": 2,
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 0",
+                "setting": "0"
+            },
+            "DRV_out_1": {
+                "Min": 0.9,
+                "Typ": 2,
+                "Max": 4,
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 1",
+                "setting": "1"
+            },
+            "DRV_out_2": {
+                "Min": 1.8,
+                "Typ": 4,
+                "Max": 7.5,
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 2",
+                "setting": "2"
+            },
+            "DRV_out_3": {
+                "Min": 3.6,
+                "Typ": 8,
+                "Max": 15,
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 3",
+                "setting": "3"
+            },
+            "DRV_out_4": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 4",
+                "setting": "4"
+            },
+            "DRV_out_5": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 5",
+                "setting": "5"
+            },
+            "DRV_out_6": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 6",
+                "setting": "6"
+            },
+            "DRV_out_7": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 7",
+                "setting": "7"
+            },
+            "DRV_out_RESET": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; during RESET",
+                "setting": "ND"
+            },
+            "SR_out_0": {
+                "Min": "0.025",
+                "Typ": "ND",
+                "Max": 0.4,
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 0",
+                "setting": "0"
+            },
+            "SR_out_1": {
+                "Min": 0.05,
+                "Typ": "ND",
+                "Max": 0.75,
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 1",
+                "setting": "1"
+            },
+            "SR_out_2": {
+                "Min": 0.1,
+                "Typ": "ND",
+                "Max": 1.5,
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 2",
+                "setting": "2"
+            },
+            "SR_out_3": {
+                "Min": 0.15,
+                "Typ": "ND",
+                "Max": 2.65,
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 3",
+                "setting": "3"
+            },
+            "SR_out_4": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 4",
+                "setting": "4"
+            },
+            "SR_out_5": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 5",
+                "setting": "5"
+            },
+            "SR_out_6": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 6",
+                "setting": "6"
+            },
+            "SR_out_7": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 7",
+                "setting": "7"
+            },
+            "R_pu_pd_0": {
+                "Min": 0.6,
+                "Typ": 1.25,
+                "Max": 2.5,
+                "Unit": "kOhm",
+                "primary_parameter": "Pull-Up / Pull-Down Resistance",
+                "setting": "ND"
+            },
+            "R_pu_pd_1": {
+                "Min": 6,
+                "Typ": 10,
+                "Max": 17,
+                "Unit": "kOhm",
+                "primary_parameter": "Pull-Up / Pull-Down Resistance",
+                "setting": "ND"
+            },
+            "R_pu_pd_2": {
+                "Min": 15,
+                "Typ": 25,
+                "Max": 40,
+                "Unit": "kOhm",
+                "primary_parameter": "Pull-Up / Pull-Down Resistance",
+                "setting": "ND"
+            },
+            "R_pu_pd_3": {
+                "Min": 60,
+                "Typ": 100,
+                "Max": 150,
+                "Unit": "kOhm",
+                "primary_parameter": "Pull-Up / Pull-Down Resistance",
+                "setting": "ND"
+            },
+            "R_pd_test": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "kOhm",
+                "primary_parameter": "High-ohmic pull-down resistance in test mode",
+                "setting": "ND"
+            },
+            "Cload": {
+                "Min": 5,
+                "Typ": "ND",
+                "Max": 20,
+                "Unit": "pF",
+                "primary_parameter": "Output load in Mission Mode",
+                "setting": "ND"
+            },
+            "Cload_test": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": 110,
+                "Unit": "pF",
+                "primary_parameter": "Output load in Test Mode",
+                "setting": "ND"
+            },
+            "tp": {
+                "Min": "ND",
+                "Typ": 10,
+                "Max": 20,
+                "Unit": "ns",
+                "primary_parameter": "Delay time, output direction",
+                "setting": "ND"
+            },
+            "tp_in": {
+                "Min": "ND",
+                "Typ": 3.5,
+                "Max": 6.5,
+                "Unit": "ns",
+                "primary_parameter": "Delay time, input direction",
+                "setting": "ND"
+            },
+            "f_clk": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "MHz",
+                "primary_parameter": "Toggle Rate in Mission Mode",
+                "setting": "ND"
+            },
+            "f_clk_test": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": 10,
+                "Unit": "MHz",
+                "primary_parameter": "Toggle Rate in Test Mode",
+                "setting": "ND"
+            },
+            "tr/f": {
+                "Min": "ND",
+                "Typ": 6.5,
+                "Max": "ND",
+                "Unit": "ns",
+                "primary_parameter": "20%-80% rise/fall time in Test Mode",
+                "setting": "ND"
+            },
+            "t_pulse": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "ns",
+                "primary_parameter": "Clk out high/low time ",
+                "setting": "ND"
+            }
+        },
+        "features": {
+            "Input Conditioner": "-",
+            "Output Conditioner": "-",
+            "Supply Selection": "-",
+            "Output": "-",
+            "General Purpose Output": "-",
+            "Input": "-",
+            "Input Event": "-",
+            "Input Debouncer": "-",
+            "General Purpose Input": "-",
+            "Wakeup": "-",
+            "Resistive Pull": "-",
+            "Resistive Pulldown": "-",
+            "Resistive Pullup": "-",
+            "Deglitcher": "-",
+            "Hold": "-",
+            "Contention Detection": "-",
+            "Power Sequencing": "-",
+            "IRQ for SecureFW": "-",
+            "IRQ for Telemtry FW": "-"
+        }
+    },
+    "iohv": {
+        "type": "apc_iohv",
+        "spec": {
+            "VDD0": {
+                "Min": 2.5,
+                "Typ": 3.8,
+                "Max": 4.9,
+                "Unit": "V",
+                "primary_parameter": "IO driver supply; setting 0",
+                "setting": "0"
+            },
+            "VDD1": {
+                "Min": 1.62,
+                "Typ": 1.8,
+                "Max": 1.98,
+                "Unit": "V",
+                "primary_parameter": "IO driver supply; setting 1",
+                "setting": "1"
+            },
+            "VDD2": {
+                "Min": 1.62,
+                "Typ": 1.8,
+                "Max": 1.98,
+                "Unit": "V",
+                "primary_parameter": "IO driver supply; setting 2",
+                "setting": "2"
+            },
+            "VDD3": {
+                "Min": 1.62,
+                "Typ": 1.8,
+                "Max": 1.98,
+                "Unit": "V",
+                "primary_parameter": "IO driver supply; setting 3",
+                "setting": "3"
+            },
+            "VDD3_name": {
+                "Min": "ND",
+                "Typ": "VDDIO_1V8",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "ND",
+                "setting": "ND"
+            },
+            "VDD_input1": {
+                "Min": "ND",
+                "Typ": "VDD_MAIN1",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "ND",
+                "setting": "ND"
+            },
+            "VDD_input2": {
+                "Min": "ND",
+                "Typ": "VDDIO_1V8",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "ND",
+                "setting": "ND"
+            },
+            "Vthr_pos": {
+                "Min": 40,
+                "Typ": "ND",
+                "Max": 70,
+                "Unit": "%",
+                "primary_parameter": "IO Positive-Going Input Threshold",
+                "setting": "ND"
+            },
+            "Vthr_neg": {
+                "Min": 30,
+                "Typ": "ND",
+                "Max": 60,
+                "Unit": "%",
+                "primary_parameter": "IO Negative-Going Input Threshold",
+                "setting": "ND"
+            },
+            "Vthr_hyst": {
+                "Min": 10,
+                "Typ": "ND",
+                "Max": 40,
+                "Unit": "%",
+                "primary_parameter": "IO Input Thresholds Hysteresis",
+                "setting": "ND"
+            },
+            "I_leak": {
+                "Min": -500,
+                "Typ": "ND",
+                "Max": 500,
+                "Unit": "nA",
+                "primary_parameter": "IO Input Leakage",
+                "setting": "ND"
+            },
+            "Voh": {
+                "Min": "ND",
+                "Typ": "NA",
+                "Max": "ND",
+                "Unit": "%",
+                "primary_parameter": "IO Output High Voltage Level",
+                "setting": "ND"
+            },
+            "Vol": {
+                "Min": "ND",
+                "Typ": "NA",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "IO Output Low Voltage Level",
+                "setting": "ND"
+            },
+            "DRV_out_0": {
+                "Min": 0.5,
+                "Typ": 1.157,
+                "Max": 3.5,
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 0",
+                "setting": "0"
+            },
+            "DRV_out_1": {
+                "Min": 1,
+                "Typ": 2.299,
+                "Max": 7,
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 1",
+                "setting": "1"
+            },
+            "DRV_out_2": {
+                "Min": 2,
+                "Typ": 4.512,
+                "Max": 13.5,
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 2",
+                "setting": "2"
+            },
+            "DRV_out_3": {
+                "Min": 4,
+                "Typ": 8.676,
+                "Max": 24,
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 3",
+                "setting": "3"
+            },
+            "DRV_out_4": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 4",
+                "setting": "4"
+            },
+            "DRV_out_5": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 5",
+                "setting": "5"
+            },
+            "DRV_out_6": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 6",
+                "setting": "6"
+            },
+            "DRV_out_7": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 7",
+                "setting": "7"
+            },
+            "DRV_out_RESET": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; during RESET",
+                "setting": "ND"
+            },
+            "SR_out_0": {
+                "Min": 0.025,
+                "Typ": "ND",
+                "Max": 1.07,
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 0",
+                "setting": "0"
+            },
+            "SR_out_1": {
+                "Min": 0.05,
+                "Typ": "ND",
+                "Max": 2.01,
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 1",
+                "setting": "1"
+            },
+            "SR_out_2": {
+                "Min": 0.1,
+                "Typ": "ND",
+                "Max": 3,
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 2",
+                "setting": "2"
+            },
+            "SR_out_3": {
+                "Min": 0.1,
+                "Typ": "ND",
+                "Max": 3,
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 3",
+                "setting": "3"
+            },
+            "SR_out_4": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 4",
+                "setting": "4"
+            },
+            "SR_out_5": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 5",
+                "setting": "5"
+            },
+            "SR_out_6": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 6",
+                "setting": "6"
+            },
+            "SR_out_7": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 7",
+                "setting": "7"
+            },
+            "R_pu_pd_0": {
+                "Min": 0.75,
+                "Typ": 1.25,
+                "Max": 2.5,
+                "Unit": "kOhm",
+                "primary_parameter": "Pull-Up / Pull-Down Resistance",
+                "setting": "ND"
+            },
+            "R_pu_pd_1": {
+                "Min": 15,
+                "Typ": 25,
+                "Max": 40,
+                "Unit": "kOhm",
+                "primary_parameter": "Pull-Up / Pull-Down Resistance",
+                "setting": "ND"
+            },
+            "R_pu_pd_2": {
+                "Min": 60,
+                "Typ": 100,
+                "Max": 150,
+                "Unit": "kOhm",
+                "primary_parameter": "Pull-Up / Pull-Down Resistance",
+                "setting": "ND"
+            },
+            "R_pu_pd_3": {
+                "Min": 130,
+                "Typ": 200,
+                "Max": 300,
+                "Unit": "kOhm",
+                "primary_parameter": "Pull-Up / Pull-Down Resistance",
+                "setting": "ND"
+            },
+            "R_pd_test": {
+                "Min": 130,
+                "Typ": 200,
+                "Max": 300,
+                "Unit": "kOhm",
+                "primary_parameter": "High-ohmic pull-down resistance in test mode",
+                "setting": "ND"
+            },
+            "Cload": {
+                "Min": 5,
+                "Typ": "ND",
+                "Max": 20,
+                "Unit": "pF",
+                "primary_parameter": "Output load in Mission Mode",
+                "setting": "ND"
+            },
+            "Cload_test": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "pF",
+                "primary_parameter": "Output load in Test Mode",
+                "setting": "ND"
+            },
+            "tp": {
+                "Min": "ND",
+                "Typ": 5,
+                "Max": 35,
+                "Unit": "ns",
+                "primary_parameter": "Delay time, output direction",
+                "setting": "ND"
+            },
+            "tp_in": {
+                "Min": "ND",
+                "Typ": 5,
+                "Max": 25,
+                "Unit": "ns",
+                "primary_parameter": "Delay time, input direction",
+                "setting": "ND"
+            },
+            "f_clk": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "MHz",
+                "primary_parameter": "Toggle Rate in Mission Mode",
+                "setting": "ND"
+            },
+            "f_clk_test": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "MHz",
+                "primary_parameter": "Toggle Rate in Test Mode",
+                "setting": "ND"
+            },
+            "tr/f": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "ns",
+                "primary_parameter": "20%-80% rise/fall time in Test Mode",
+                "setting": "ND"
+            },
+            "t_pulse": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "ns",
+                "primary_parameter": "Clk out high/low time ",
+                "setting": "ND"
+            }
+        },
+        "features": {
+            "Input Conditioner": "-",
+            "Output Conditioner": "-",
+            "Supply Selection": "-",
+            "Output": "-",
+            "General Purpose Output": "-",
+            "Input": "-",
+            "Input Event": "-",
+            "Input Debouncer": "-",
+            "General Purpose Input": "-",
+            "Wakeup": "-",
+            "Resistive Pull": "-",
+            "Resistive Pulldown": "-",
+            "Resistive Pullup": "-",
+            "Deglitcher": "-",
+            "Hold": "-",
+            "Contention Detection": "-",
+            "Power Sequencing": "-",
+            "IRQ for SecureFW": "-",
+            "IRQ for Telemtry FW": "-"
+        }
+    },
+    "ilv": {
+        "type": "apc_ilv",
+        "spec": {
+            "VDD0": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "IO driver supply; setting 0",
+                "setting": "0"
+            },
+            "VDD1": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "IO driver supply; setting 1",
+                "setting": "1"
+            },
+            "VDD2": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "IO driver supply; setting 2",
+                "setting": "2"
+            },
+            "VDD3": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "IO driver supply; setting 3",
+                "setting": "3"
+            },
+            "VDD3_name": {
+                "Min": "ND",
+                "Typ": "-CLAMP-",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "ND",
+                "setting": "ND"
+            },
+            "VDD_input1": {
+                "Min": "ND",
+                "Typ": "LDO.ANA",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "ND",
+                "setting": "ND"
+            },
+            "VDD_input2": {
+                "Min": "ND",
+                "Typ": "LDO.ANA",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "ND",
+                "setting": "ND"
+            },
+            "Vthr_pos": {
+                "Min": 40,
+                "Typ": "ND",
+                "Max": 70,
+                "Unit": "%",
+                "primary_parameter": "IO Positive-Going Input Threshold",
+                "setting": "ND"
+            },
+            "Vthr_neg": {
+                "Min": 30,
+                "Typ": "ND",
+                "Max": 60,
+                "Unit": "%",
+                "primary_parameter": "IO Negative-Going Input Threshold",
+                "setting": "ND"
+            },
+            "Vthr_hyst": {
+                "Min": 10,
+                "Typ": "ND",
+                "Max": 40,
+                "Unit": "%",
+                "primary_parameter": "IO Input Thresholds Hysteresis",
+                "setting": "ND"
+            },
+            "I_leak": {
+                "Min": -800,
+                "Typ": "ND",
+                "Max": 800,
+                "Unit": "nA",
+                "primary_parameter": "IO Input Leakage",
+                "setting": "ND"
+            },
+            "Voh": {
+                "Min": 80,
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "%",
+                "primary_parameter": "IO Output High Voltage Level",
+                "setting": "ND"
+            },
+            "Vol": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": 0.3,
+                "Unit": "V",
+                "primary_parameter": "IO Output Low Voltage Level",
+                "setting": "ND"
+            },
+            "DRV_out_0": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 0",
+                "setting": "0"
+            },
+            "DRV_out_1": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 1",
+                "setting": "1"
+            },
+            "DRV_out_2": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 2",
+                "setting": "2"
+            },
+            "DRV_out_3": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 3",
+                "setting": "3"
+            },
+            "DRV_out_4": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 4",
+                "setting": "4"
+            },
+            "DRV_out_5": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 5",
+                "setting": "5"
+            },
+            "DRV_out_6": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 6",
+                "setting": "6"
+            },
+            "DRV_out_7": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 7",
+                "setting": "7"
+            },
+            "DRV_out_RESET": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; during RESET",
+                "setting": "ND"
+            },
+            "SR_out_0": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 0",
+                "setting": "0"
+            },
+            "SR_out_1": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 1",
+                "setting": "1"
+            },
+            "SR_out_2": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 2",
+                "setting": "2"
+            },
+            "SR_out_3": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 3",
+                "setting": "3"
+            },
+            "SR_out_4": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 4",
+                "setting": "4"
+            },
+            "SR_out_5": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 5",
+                "setting": "5"
+            },
+            "SR_out_6": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 6",
+                "setting": "6"
+            },
+            "SR_out_7": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 7",
+                "setting": "7"
+            },
+            "R_pu_pd_0": {
+                "Min": 0.6,
+                "Typ": 1.25,
+                "Max": 2.5,
+                "Unit": "kOhm",
+                "primary_parameter": "Pull-Up / Pull-Down Resistance",
+                "setting": "ND"
+            },
+            "R_pu_pd_1": {
+                "Min": 6,
+                "Typ": 10,
+                "Max": 17,
+                "Unit": "kOhm",
+                "primary_parameter": "Pull-Up / Pull-Down Resistance",
+                "setting": "ND"
+            },
+            "R_pu_pd_2": {
+                "Min": 15,
+                "Typ": 25,
+                "Max": 40,
+                "Unit": "kOhm",
+                "primary_parameter": "Pull-Up / Pull-Down Resistance",
+                "setting": "ND"
+            },
+            "R_pu_pd_3": {
+                "Min": 60,
+                "Typ": 100,
+                "Max": 150,
+                "Unit": "kOhm",
+                "primary_parameter": "Pull-Up / Pull-Down Resistance",
+                "setting": "ND"
+            },
+            "R_pd_test": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "kOhm",
+                "primary_parameter": "High-ohmic pull-down resistance in test mode",
+                "setting": "ND"
+            },
+            "Cload": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "pF",
+                "primary_parameter": "Output load in Mission Mode",
+                "setting": "ND"
+            },
+            "Cload_test": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "pF",
+                "primary_parameter": "Output load in Test Mode",
+                "setting": "ND"
+            },
+            "tp": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "ns",
+                "primary_parameter": "Delay time, output direction",
+                "setting": "ND"
+            },
+            "tp_in": {
+                "Min": "ND",
+                "Typ": 3.5,
+                "Max": 6.5,
+                "Unit": "ns",
+                "primary_parameter": "Delay time, input direction",
+                "setting": "ND"
+            },
+            "f_clk": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "MHz",
+                "primary_parameter": "Toggle Rate in Mission Mode",
+                "setting": "ND"
+            },
+            "f_clk_test": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": 10,
+                "Unit": "MHz",
+                "primary_parameter": "Toggle Rate in Test Mode",
+                "setting": "ND"
+            },
+            "tr/f": {
+                "Min": "ND",
+                "Typ": 6.5,
+                "Max": "ND",
+                "Unit": "ns",
+                "primary_parameter": "20%-80% rise/fall time in Test Mode",
+                "setting": "ND"
+            },
+            "t_pulse": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "ns",
+                "primary_parameter": "Clk out high/low time ",
+                "setting": "ND"
+            }
+        },
+        "features": {
+            "Input Conditioner": "-",
+            "Output Conditioner": "-",
+            "Supply Selection": "-",
+            "Output": "-",
+            "General Purpose Output": "-",
+            "Input": "-",
+            "Input Event": "-",
+            "Input Debouncer": "-",
+            "General Purpose Input": "-",
+            "Wakeup": "-",
+            "Resistive Pull": "-",
+            "Resistive Pulldown": "-",
+            "Resistive Pullup": "-",
+            "Deglitcher": "-",
+            "Hold": "-",
+            "Contention Detection": "-",
+            "Power Sequencing": "-",
+            "IRQ for SecureFW": "-",
+            "IRQ for Telemtry FW": "-"
+        }
+    },
+    "iospmi": {
+        "type": "apc_iospmi",
+        "spec": {
+            "VDD0": {
+                "Min": 1.08,
+                "Typ": 1.2,
+                "Max": 1.32,
+                "Unit": "V",
+                "primary_parameter": "IO driver supply; setting 0",
+                "setting": "0"
+            },
+            "VDD1": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "IO driver supply; setting 1",
+                "setting": "1"
+            },
+            "VDD2": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "IO driver supply; setting 2",
+                "setting": "2"
+            },
+            "VDD3": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "IO driver supply; setting 3",
+                "setting": "3"
+            },
+            "VDD3_name": {
+                "Min": "ND",
+                "Typ": "-CLAMP-",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "ND",
+                "setting": "ND"
+            },
+            "VDD_input1": {
+                "Min": "ND",
+                "Typ": "VDDIO_1V2",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "ND",
+                "setting": "ND"
+            },
+            "VDD_input2": {
+                "Min": "ND",
+                "Typ": "-CLAMP-",
+                "Max": "ND",
+                "Unit": "V",
+                "primary_parameter": "ND",
+                "setting": "ND"
+            },
+            "Vthr_pos": {
+                "Min": 40,
+                "Typ": "ND",
+                "Max": 70,
+                "Unit": "%",
+                "primary_parameter": "IO Positive-Going Input Threshold",
+                "setting": "ND"
+            },
+            "Vthr_neg": {
+                "Min": 30,
+                "Typ": "ND",
+                "Max": 60,
+                "Unit": "%",
+                "primary_parameter": "IO Negative-Going Input Threshold",
+                "setting": "ND"
+            },
+            "Vthr_hyst": {
+                "Min": 10,
+                "Typ": "ND",
+                "Max": 40,
+                "Unit": "%",
+                "primary_parameter": "IO Input Thresholds Hysteresis",
+                "setting": "ND"
+            },
+            "I_leak": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "nA",
+                "primary_parameter": "IO Input Leakage",
+                "setting": "ND"
+            },
+            "Voh": {
+                "Min": 80,
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "%",
+                "primary_parameter": "IO Output High Voltage Level",
+                "setting": "ND"
+            },
+            "Vol": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "0.2*VDD0",
+                "Unit": "V",
+                "primary_parameter": "IO Output Low Voltage Level",
+                "setting": "ND"
+            },
+            "DRV_out_0": {
+                "Min": "ND",
+                "Typ": 2,
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 0",
+                "setting": "0"
+            },
+            "DRV_out_1": {
+                "Min": "ND",
+                "Typ": 3,
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 1",
+                "setting": "1"
+            },
+            "DRV_out_2": {
+                "Min": "ND",
+                "Typ": 4,
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 2",
+                "setting": "2"
+            },
+            "DRV_out_3": {
+                "Min": "ND",
+                "Typ": 5,
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 3",
+                "setting": "3"
+            },
+            "DRV_out_4": {
+                "Min": "ND",
+                "Typ": 6,
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 4",
+                "setting": "4"
+            },
+            "DRV_out_5": {
+                "Min": "ND",
+                "Typ": 7,
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 5",
+                "setting": "5"
+            },
+            "DRV_out_6": {
+                "Min": "ND",
+                "Typ": 8,
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 6",
+                "setting": "6"
+            },
+            "DRV_out_7": {
+                "Min": "ND",
+                "Typ": 9,
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; setting 7",
+                "setting": "7"
+            },
+            "DRV_out_RESET": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "mA",
+                "primary_parameter": "IO Output Driving Strength; during RESET",
+                "setting": "ND"
+            },
+            "SR_out_0": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 0",
+                "setting": "0"
+            },
+            "SR_out_1": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 1",
+                "setting": "1"
+            },
+            "SR_out_2": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 2",
+                "setting": "2"
+            },
+            "SR_out_3": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 3",
+                "setting": "3"
+            },
+            "SR_out_4": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 4",
+                "setting": "4"
+            },
+            "SR_out_5": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 5",
+                "setting": "5"
+            },
+            "SR_out_6": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 6",
+                "setting": "6"
+            },
+            "SR_out_7": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "V/ns",
+                "primary_parameter": "IO Output Slew Rate; driving strength setting 7",
+                "setting": "7"
+            },
+            "R_pu_pd_0": {
+                "Min": 500,
+                "Typ": "ND",
+                "Max": 2000,
+                "Unit": "kOhm",
+                "primary_parameter": "Pull-Up / Pull-Down Resistance",
+                "setting": "ND"
+            },
+            "R_pu_pd_1": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "kOhm",
+                "primary_parameter": "Pull-Up / Pull-Down Resistance",
+                "setting": "ND"
+            },
+            "R_pu_pd_2": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "kOhm",
+                "primary_parameter": "Pull-Up / Pull-Down Resistance",
+                "setting": "ND"
+            },
+            "R_pu_pd_3": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "kOhm",
+                "primary_parameter": "Pull-Up / Pull-Down Resistance",
+                "setting": "ND"
+            },
+            "R_pd_test": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "kOhm",
+                "primary_parameter": "High-ohmic pull-down resistance in test mode",
+                "setting": "ND"
+            },
+            "Cload": {
+                "Min": 15,
+                "Typ": "ND",
+                "Max": 50,
+                "Unit": "pF",
+                "primary_parameter": "Output load in Mission Mode",
+                "setting": "ND"
+            },
+            "Cload_test": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "pF",
+                "primary_parameter": "Output load in Test Mode",
+                "setting": "ND"
+            },
+            "tp": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "ns",
+                "primary_parameter": "Delay time, output direction",
+                "setting": "ND"
+            },
+            "tp_in": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "ns",
+                "primary_parameter": "Delay time, input direction",
+                "setting": "ND"
+            },
+            "f_clk": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": 24,
+                "Unit": "MHz",
+                "primary_parameter": "Toggle Rate in Mission Mode",
+                "setting": "ND"
+            },
+            "f_clk_test": {
+                "Min": "ND",
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "MHz",
+                "primary_parameter": "Toggle Rate in Test Mode",
+                "setting": "ND"
+            },
+            "tr/f": {
+                "Min": 0.66,
+                "Typ": "ND",
+                "Max": 5.4,
+                "Unit": "ns",
+                "primary_parameter": "20%-80% rise/fall time in Test Mode",
+                "setting": "ND"
+            },
+            "t_pulse": {
+                "Min": 18,
+                "Typ": "ND",
+                "Max": "ND",
+                "Unit": "ns",
+                "primary_parameter": "Clk out high/low time ",
+                "setting": "ND"
+            }
+        },
+        "features": {
+            "Input Conditioner": "-",
+            "Output Conditioner": "-",
+            "Supply Selection": "-",
+            "Output": "-",
+            "General Purpose Output": "-",
+            "Input": "-",
+            "Input Event": "-",
+            "Input Debouncer": "-",
+            "General Purpose Input": "-",
+            "Wakeup": "-",
+            "Resistive Pull": "-",
+            "Resistive Pulldown": "-",
+            "Resistive Pullup": "-",
+            "Deglitcher": "-",
+            "Hold": "-",
+            "Contention Detection": "-",
+            "Power Sequencing": "-",
+            "IRQ for SecureFW": "-",
+            "IRQ for Telemtry FW": "-"
+        }
+    }
+}
