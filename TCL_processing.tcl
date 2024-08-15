@@ -8,6 +8,8 @@
 package require TclOO
 package require json
 
+puts "This is a test"
+
 catch { IO  destroy }
 
 # create a new class
